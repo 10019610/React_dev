@@ -54,7 +54,7 @@
 
 - cosnt app = () => {}
 
-# 섹션4 react State & event
+# react State & event
 
 ## State 활용
 
@@ -67,3 +67,11 @@
   - 모든 훅은 use로 시작한다.
 
   - useState는 기본적인 state 값 대신 useState()로 특별한 종류의 변수를 생성한다고 할 수 있다.
+
+## 사용자 입력 listening
+
+- on 으로 시작하는 여러가지 이벤트중 onChange 이벤트의 경우 모든 input 타입과 같은 이벤트를 사용할 수 있다는 장점이 있다.
+
+  - ex) dropdown 메뉴와 같이
+
+# 렌더링 리스트 및 조건부 Content
